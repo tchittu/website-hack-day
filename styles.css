@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(197, 177, 236);
+    display: flex;
+}
+h1 {
+    color: purple
+}
+.second-header {
+    color: grey
+}
+.group-text {
+    margin: 24px;
+    padding: 24px;
+    background-color: pink;
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+}
